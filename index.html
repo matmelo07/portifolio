@@ -11,7 +11,7 @@
     <link rel="manifest" href="/site.webmanifest">
     <title>Portfolio</title>
 </head>
-<body>
+
     <div class="container">
         <div class="burguer">
             <div class="line" id="line1"></div>
@@ -26,10 +26,10 @@
             <div class="banner">
                 <h1>web developer & </br>front end designer</h1>
                 <p>mateus melo</p>
-                <button>saiba mais</button>
+                <a href="https://github.com/matmelo07"><button> saiba mais</button></a>
             </div>
         </header>
-      <div class="sidebar">
+      <aside class="sidebar">
           <nav>
               <ul class="menu">
                   <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
@@ -44,10 +44,165 @@
             <a href=""><i class="fab fa-github"></i></a>
             <a href=""><i class="fab fa-instagram"></i></a>
         </div>
+      </aside>
+    </div> 
+   <section class="sessao-conhecimentos">
+       <div class="sessao-header">
+           <h1>Conhecimentos</h1>
+       </div>
+        <div class="conhecimentos">
+            <div class="conhecimento">
+                <div class="conhecimento-header">
+                    <i class="fab fa-html5"></i>
+                    <h3>html</h3>
+                </div>
+                <div class="conhecimento-text">
+                    <p>lore30</p>
+                </div>
+            </div>
+            <div class="conhecimento">
+                <div class="conhecimento-header">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>css</h3>
+                </div>
+                <div class="conhecimento-text">
+                    <p>lore30</p>
+                </div>
+                                    
+            </div>
+            <div class="conhecimento">
+                <div class="conhecimento-header">
+                    <i class="fab fa-js-square"></i>
+                    <h3>javascript</h3>
+                </div>
+                <div class="conhecimento-text">
+                    <p>lore30</p>
+                </div>
+                                    
+            </div>
+            <div class="conhecimento">
+                <div class="conhecimento-header">
+                    <i class="fab fa-github"></i>
+                    <h3>git e github</h3>
+                </div>
+                <div class="conhecimento-text">
+                    <p>lore30</p>
+                </div>
+                                    
+            </div>
+            <div class="conhecimento">
+                <div class="conhecimento-header">
+                    <i class="fab fa-react"></i>
+                    <h3>react</h3>
+                </div>
+                <div class="conhecimento-text">
+                    <p>lore30</p>
+                </div>
+                                    
+            </div>
+            <div class="conhecimento-img">
+                <img src="./imagens/hero1.png" alt="">
+            </div>
+            
+        </div>
+        
+        
+   </section>
+   <section class="session-projects">
+       <div class="sessao-header">
+           <h1>Projetos</h1></div>
+           <div class="projects">
+       <div class="cards">
+           <div class="card-img-wrapper">
+               <img src="./imagens/proj1.jpg" alt="">
+           </div>
+           <div class="card-info">
+               <h2>quiz</h2>
+               <h3>javascript, html, css</h3>
+               <p>Perguntas e respostas num pequeno jogo quiz</p>
+               <button>saiba mais</button>
+           </div>
+       </div>
+   
+       <div class="cards">
+        <div class="card-img-wrapper">
+            <img src="./imagens/proj2.jpg" alt="">
+        </div>
+        <div class="card-info">
+            <h2>tesla</h2>
+            <h3>html, css</h3>
+            <p>Um clone do site tesla denominado Devsla</p>
+            <button>saiba mais</button>
+        </div>
       </div>
-      
-       
+   
+    <div class="cards">
+        <div class="card-img-wrapper">
+            <img src="./imagens/proj4.jpg" alt="">
+        </div>
+        <div class="card-info">
+            <h2>galeria de fotos</h2>
+            <h3>javascript</h3>
+            <p>Uma pequena galeria de fotos com efeito modal</p>
+            <button>saiba mais</button>
+        </div>
     </div>
+</div>
+</section>
+<section class="sessao-contato">
+    <div class="contato-wrapper">
+        <div class="contato-left"></div>
+         <div class="contato-right">
+            <h1>contato</h1>
+             <form>
+                
+                 <div class="field-group">
+                     <input type="text" class="field" id="nome">
+                     <label for="nome" class="field-label">nome</label>
+                 </div>
+                 <div class="field-group">
+                    <input type="text" class="field" id="email">
+                    <label for="email" class="field-label">e-mail</label>
+                </div>
+                <div class="field-group">
+                    
+                   <textarea name="msg" class="field" id="msg"></textarea>
+                   <label for="msg" class="field-label">mensagem</label>
+                </div>
+                <button class="btn-form">enviar</button>
+             </form>
+            
+         </div>
+    </div>
+
+</section>
+<section class="sessao-orcamento">
+    <div class="orcamento-wrapper">
+        <h1>faça seu orçamento</h1>
+         <form>
+             <label for="qtd">quantidade de páginas</label>
+             <input type="number" id="qtd">
+             <label for="js">preciso de um script JS</label>
+             <input type="checkbox" id="js">
+             <label for="layout">layout</label>
+             <div class="group-layout">
+                 <div >
+                     <input type="radio" name="layout" id="layout-sim">
+                     <label for="layout-sim">preciso de um layout</label>
+                 </div>
+                 <div >
+                    <input type="radio" name="layout" id="layout-nao">
+                    <label for="layout-nao">já tenho o layout</label>
+                </div>
+             </div>
+             <label for="prazo">prazo</label>
+            <input type="range" name="prazo" id="prazo">
+            
+            <button type="submit" class="btn-orcamento">enviar</button>
+         </form>
+         
+    </div>
+</section>
     
     
 </body>
